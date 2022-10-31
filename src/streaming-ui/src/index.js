@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import "@elastic/react-search-ui-views/lib/styles/styles.css";
 import '@elastic/eui/dist/eui_theme_light.css';
+
+import 'react-dropdown/style.css';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

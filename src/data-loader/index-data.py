@@ -69,10 +69,10 @@ app_search.create_engine(engine_name=args.engine_name, request_timeout=30)
 print("Engine created")
 
 print("Indexing data to App Search")
-for data_filename in os.listdir(args.data_folder):
-    if data_filename.endswith('.json'):
-        data_file = open(os.path.join(args.data_folder, data_filename), 'r')
-        index(data_file)
+# for data_filename in os.listdir(args.data_folder):
+#     if data_filename.endswith('.json'):
+data_file = open(os.path.join(args.data_folder, "movies_2000-2021_w_details.json"), "r")
+index(data_file)
 
 print("Update engine schema")
 schemaConfig = open(os.path.join(args.config_folder, "schema.json") , "r")

@@ -3617,6 +3617,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.3:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
+
 classnames@^2.2.5, classnames@^2.2.6:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
@@ -9889,6 +9894,13 @@ react-dom@^17.0.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.2"
+
+react-dropdown@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/react-dropdown/-/react-dropdown-1.10.0.tgz#c566e5de5212dc4bf2041c20d755e667760b8fab"
+  integrity sha512-jvlPVB5KU1tuacx9+igu5c+Xtpzjos5ZRXhMxHiVmdEM0SR2vabeAoL9QfN3p4e1CjgdjYsM8gCXbFNSyT25EQ==
+  dependencies:
+    classnames "^2.2.3"
 
 react-dropzone@^11.2.0:
   version "11.3.4"
